@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  font-family: young-serif-regular;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+ background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;}
+
+.recipe_card{
+    background: white;
+    max-width: 740px;
+    border-radius: 16px;
+    padding: 2.5rem;
+}
+.recipe_image{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+h1{font-family: young-serif-regular;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+
+h2{
+    font-family: young-serif-regular;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+  margin: 1.5rem 0 1rem;
+  color: hsl(25, 63%, 39%);
+
+}
+.prep_time p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400,600,700;
+  font-style: normal;
+  
+}
+.prep_time{
+  background: hsl(330, 100%, 98%);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+.prep_time p{
+  font-size: 1.2rem;
+  color: hsl(332, 51%, 32%);
+}
+.prep_time ul{
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+.ingredients ul,.instructions ol{
+margin-left: 1.5rem;
+}
+.instructions ol{
+  padding-left: 1rem;
+}
+.instructions li{
+  margin-bottom: 0.5rem;
+}
+.nutrition table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.nutrition td{
+  padding: 0.75rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+
+}
+.nutrition td:first-child{
+  color: hsl(24, 5%, 18%);
+}
+.nutrition td:last-child{
+  font-weight: bold;
+  color: hsl(25, 63%, 39%);
+
+}
+.nutrition 
+{ @media (max-width: 768px)
+
+ { body {
+    padding: 3rem;
+  }
+}
+}
+
+  
+
+  .recipe-card {
+    padding: 1.5rem;
+  }
+
+section {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border: none;
+  border-top: 1px solid  grey;
+  border-bottom: 1px solid  grey;
+}
+section:last-of-type {
+  border-bottom: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%);}
